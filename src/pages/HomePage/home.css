@@ -1,0 +1,70 @@
+#home-page {
+    .name:hover span {
+        color: #fff;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+        transform: scale(0.5, 0.5);
+    }
+
+    .wave {
+        animation-name: wave-animation;
+        animation-duration: 2.1s;
+        animation-iteration-count: infinite;
+        transform-origin: 70% 70%;
+        display: inline-block;
+    }
+
+    .sub-title {
+        position: relative;
+        letter-spacing: 7px !important;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: sub-title 4s steps(44) 1s 1 normal both
+    }
+
+
+
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes sub-title {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 710px;
+    }
+}

@@ -1,0 +1,105 @@
+#header {
+    @apply fixed top-0 z-50 flex justify-center w-full items-center px-8 py-2 text-xl h-20
+}
+
+#header .navbar {
+    @apply bg-transparent
+}
+
+
+#header .active {
+    @apply text-xl z-50 font-bold uppercase text-white leading-6 relative
+}
+
+#header .not-active {
+    @apply text-xl z-50 font-normal uppercase text-white leading-6 relative
+}
+
+#header {
+
+    .item {
+        cursor: pointer;
+    }
+
+    .linee {
+        width: 20px;
+        height: 3px;
+        background: rgb(201, 198, 198);
+        margin-top: 3px;
+        border-radius: 5px;
+        transition: all 0.2s;
+    }
+
+    .linee1 {
+        width: 15px;
+        transform: translateX(5px);
+    }
+
+    .linee1::before {
+        content: "";
+        display: block;
+        transform: translateX(-5px);
+        width: 3px;
+        height: 3px;
+        background: rgb(201, 198, 198);
+        transition: width 0.2s ease 0.1s, transform 0.2s;
+    }
+
+    .linee3::after {
+        content: "";
+        display: block;
+        transform: translateX(17px);
+        width: 0px;
+        height: 3px;
+        background: rgb(201, 198, 198);
+        transition: width 0.2s ease 0.1s;
+    }
+
+    .linee3 {
+        width: 13px;
+    }
+
+    .line {
+        position: absolute;
+        width: 10px;
+        height: 2px;
+        background: rgb(255, 255, 255);
+        transition: all 0.2s;
+    }
+
+    .line1 {
+        transform: rotate(0deg);
+    }
+
+    .line2 {
+        transform: rotate(90deg);
+    }
+
+
+    /* hover effect */
+    .menu:hover .linee1 {
+        width: 10px;
+        transform: translateX(0px);
+    }
+
+    .menu:hover .linee1::before {
+        width: 0px;
+        transform: translateX(0px);
+    }
+
+    .menu:hover .linee3 {
+        width: 15px;
+    }
+
+    .menu:hover .linee3::after {
+        content: "";
+        display: block;
+        transform: translateX(17px);
+        width: 3px;
+        height: 3px;
+        background: rgb(201, 198, 198);
+        transition: width 0.2s ease 0.1s;
+    }
+
+
+}
