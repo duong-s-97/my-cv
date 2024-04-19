@@ -21,6 +21,7 @@ function App() {
     }).then(() => {
       setInit(true);
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

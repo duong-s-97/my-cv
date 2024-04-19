@@ -74,7 +74,7 @@ function Header() {
         {/* menu mobile  */}
         <div
           className={`absolute z-40 w-screen p-8 pt-20 h-screen md:hidden transition-all duration-500 bg-black-100 ease inset-0 bg-opacity-50 backdrop-blur-lg top-20 ${
-            showMenu ? "left-0" : "-left-96"
+            showMenu ? "left-0" : "-left-[48rem]"
           }`}
         >
           <div className="flex flex-col">

@@ -1,0 +1,12 @@
+#project-page {
+
+    .card {
+        box-shadow: 0 4px 5px 3px #77358875;
+        transition: all .5s ease 0s;
+    }
+
+    .card:hover {
+        box-shadow: 0 4px 4px 5px rgba(129, 72, 144, .561);
+        transform: scale(1.02);
+    }
+}
