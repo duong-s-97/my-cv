@@ -43,18 +43,14 @@ function HomePage() {
                 Mình tên là Dương, Cảm ơn mọi người đã dành thời gian ghé thăm
                 và đánh giá sản phẩm của mình.
                 <br />
-                <br />- 2015 - đầu 2018: Học tập tại đại học Kinh tế - Kỹ thuật
-                công nghiệp. tòa nhà giảng dạy tại Lĩnh Nam, Hà Nội.
-                <br />
-                <br />- 2018 - 2019: Bảo lưu học tập và làm công nhân xây dựng
-                sau đó làm nhân viên cơ khí, bảo trì nhà máy gạch.
+                <br />- 2018 - 2019: Làm công nhân xây dựng sau đó làm nhân viên
+                cơ khí, bảo trì nhà máy gạch.
                 <br />
                 <br />- 2019 - 2022: Làm nhân viên giao nhân cho công ty Giao
                 hàng tiết kiệm.
                 <br />
                 <br />- 2022 - đến nay: Theo học tại FPT Aptech địa chỉ 8A Tôn
-                Thất Thuyết, Hà Nội và đã tốt nghiệp, hiện tại đang chờ nhận
-                bằng.
+                Thất Thuyết, Hà Nội và đã tốt nghiệp.
               </p>
               <br />
               <br />
